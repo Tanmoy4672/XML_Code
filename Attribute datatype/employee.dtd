@@ -1,0 +1,5 @@
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee EMPTY>
+<!ATTLIST employee empNO CDATA #REQUIRED>
+<!ATTLIST employee empName CDATA #REQUIRED>
+<!ATTLIST employee salary CDATA #REQUIRED>

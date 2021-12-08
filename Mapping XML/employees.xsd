@@ -1,0 +1,19 @@
+<schema targetNamespace="http://www.empinfo.com"
+xmlns="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+<element name="employees">
+<complexType>
+<sequence>
+<element name="employee" minOccurs="0" maxOccurs="unbounded">
+<complexType>
+<sequence>
+<element name="empNo" type="int"/>
+<element name="name" type="string"/>
+<element name="salary" type="decimal"/>
+</sequence>
+</complexType>
+ </element>
+</sequence>
+</complexType>
+</element>
+</schema>

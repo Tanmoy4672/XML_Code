@@ -1,0 +1,16 @@
+<employees 
+xmlns="http://www.empinfo.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation=
+"http://www.empinfo.com D://Worked File/XML work File/Mapping XML/employees.xsd">
+<employee>
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>12000</salary>
+</employee>
+<employee>
+<empNo>102</empNo>
+<name>Tamol</name>
+<salary>10000</salary>
+</employee>
+</employees>

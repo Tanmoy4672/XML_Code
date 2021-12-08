@@ -1,0 +1,6 @@
+<!DOCTYPE employee PUBLIC "-//tanmoy//1.0//EN" "D://XML/Public DTD/employee.dtd" >
+<employee>
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>20000</salary>
+</employee>

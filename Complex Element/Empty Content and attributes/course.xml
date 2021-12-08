@@ -1,0 +1,12 @@
+<schema>
+<element name ="course">
+<complexType>
+<attribute name="courseId" type="int"/>
+<attribute name="courseName" type="string"/>
+<attribute name="courseFee" type="decimal"/>
+</complexType> 
+</element>
+</schema>
+
+
+<course courseId="AB101" courseName="Computer Fundamental" courseFee="6000"/>

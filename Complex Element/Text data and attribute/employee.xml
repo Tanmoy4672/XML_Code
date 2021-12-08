@@ -1,0 +1,18 @@
+<schema>
+<element name ="employee">
+<complexType>
+<simpleContent>
+<extension base="string">
+<attribute name="empNo" type="int"/>
+<attribute name="name" type="string"/>
+<attribute name="salary" type="decimal"/>
+</extension>
+</simpleContent>
+</complexType> 
+</element>
+</schema>
+
+
+
+<employee ________>this is emp
+</employee>

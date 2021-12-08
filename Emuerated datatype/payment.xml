@@ -1,0 +1,11 @@
+<!DOCTYPE payments [
+<!ELEMENT payments (payment+)>
+<!ELEMENT payment EMPTY>
+<!ATTLIST payment payment-type (DD|CHECK|CASH) #REQUIRED>
+]>
+
+<payments>
+<payment payment-type="DD"/>
+<payment payment-type="CHECK"/>
+<payment payment-type="CASH"/>
+</payments>

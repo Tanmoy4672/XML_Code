@@ -1,0 +1,9 @@
+<!DOCTYPE employees SYSTEM "D://XML//Mixed Element/employee.dtd">
+<employees>
+<employee>
+the employee name is
+<empName>Tanmoy</empName> 
+and employee salary is
+<empSalary>20000</empSalary>
+</employee>
+</employees>

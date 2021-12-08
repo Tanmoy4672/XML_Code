@@ -1,0 +1,18 @@
+<!DOCTYPE students [
+<!ELEMENT students (course*,student*)> 
+<!ELEMENT course EMPTY>
+<!ATTLIST course courseId ID #REQUIRED>
+<!ATTLIST course courseName CDATA #REQUIRED>
+<!ATTLIST course courseFee CDATA #REQUIRED>
+<!ELEMENT student EMPTY>
+<!ATTLIST student studentId ID #REQUIRED>
+<!ATTLIST student studentName CDATA #REQUIRED>
+<!ATTLIST student  studentCourse IDREF #REQUIRED>
+]>
+<students>
+<course courseId="SW101" courseName="coreJava" courseFee="6000"/>
+<course courseId="SW102" courseName="advJava" courseFee="7000"/>
+<course courseId="SW103" courseName="swing" courseFee="8000"/>
+<student studentId="DIU2095" studentName="Tanmoy" studentCourse="SW101"/>
+<student studentId="DIU2096" studentName="Abir" studentCourse="SW102"/>
+</students>

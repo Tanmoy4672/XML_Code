@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs=
+"http://www.w3.org/2001/XMLSchema"
+xmlns:diu="http://empinfo.in/diu"
+targetNamespace="http://empinfo.in/diu"
+elementFormDefault="qualified">
+<xs:simpleType name="Datelist">
+<xs:list itemType="xs:date"/>
+</xs:simpleType>
+<xs:simpleType name="ContactList">
+<xs:list itemType="xs:string"/>
+</xs:simpleType>
+<xs:simpleType name="salaryType">
+<xs:restriction base="xs:decimal">
+<xs:minInclusive value="10000"/>
+<xs:maxInclusive value="90000"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:element name="employee">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="empNo" type="xs:integer"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="salary" type="diu:salaryType"/>
+<xs:element name="vacationDays" type="diu:Datelist"/>
+<xs:element name="phoneNumbers" type="diu:contactList"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>

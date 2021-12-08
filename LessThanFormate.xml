@@ -1,0 +1,8 @@
+<empolyee>
+	<empId>10001</empId>
+	<empAge>The empolyee age is &lt; 18</empAge>
+	<empSalary>Salary is &gt; 20000</empSalary>
+	<empFnd>Ranhim &amp; Karim are good friend</empFnd>
+	<empAppostope>Ranhim &apos;s</empAppostope>
+	<empDouble>&quot;They said &quot;</empDouble>
+</empolyee>	

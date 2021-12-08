@@ -1,0 +1,28 @@
+
+
+<xs:simpleType name="RunningRace">
+<xs:restriction base="xs:string">
+<xs:enumeration value="100meters"/>
+<xs:enumeration value="10 kilometers"/>
+<xs:enumeration value="300 meters"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="Gymnastics">
+<xs:restriction base="xs:string">
+<xs:enumeration value="floor"/>
+<xs:enumeration value="rings"/>
+<xs:enumeration value="beam"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="Event">
+           <xs:union memberTypes="RunningRace Gymnastics"/>
+</xs:simpleType>
+<xs:element name="program">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="event-name" type="Event"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>

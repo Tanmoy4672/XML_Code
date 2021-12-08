@@ -1,0 +1,6 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student EMPTY>
+<!ATTLIST student studentId CDATA #REQUIRED>
+<!ATTLIST student studentName CDATA #IMPLIED>
+<!ATTLIST student studentCourse CDATA "java">
+<!ATTLIST  student studentFee CDATA #FIXED "1000">

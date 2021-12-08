@@ -1,0 +1,10 @@
+<!DOCTYPE courses [
+<!ENTITY diu "Tanmoy">
+<!ELEMENT courses (course,institute)*>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT institute (#PCDATA)>
+]>
+<courses>
+<course>java</course>
+<institute>&diu;</institute>
+</courses>

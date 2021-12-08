@@ -1,0 +1,9 @@
+<!DOCTYPE employees [
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee EMPTY>
+]>
+
+<employees>
+<employee></employee>
+<employee/>
+</employees>

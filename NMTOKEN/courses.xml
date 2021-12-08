@@ -1,0 +1,11 @@
+<!DOCTYPE courses [
+<!ELEMENT courses (course)+>
+<!ELEMENT course EMPTY>
+<!ATTLIST course courseId ID #REQUIRED>
+<!ATTLIST course courseName NMTOKEN #REQUIRED>
+]>
+
+<courses>
+<course courseId="EN101" courseName="English"/>
+<course courseId="BN101" courseName="Bangla"/>
+</courses>

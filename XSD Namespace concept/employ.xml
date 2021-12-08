@@ -1,0 +1,22 @@
+http://www.w3.org/2001/XMLSchema
+
+<http://empinfo.com:employee>
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>20000</salary>
+</employee>
+
+------------------------------------
+
+<employee xmlns="http:empinfo.com">
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>20000</salary>
+</employee>
+
+------------------------------------
+<e:employee xmlns:e="http:empinfo.com">
+<e:empNo>101</empNo>
+<e:name>Tanmoy</name>
+<e:salary>20000</salary>
+<e:/employee>

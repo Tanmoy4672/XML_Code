@@ -1,0 +1,12 @@
+<!DOCTYPE photos [
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!NOTATION GIF SYSTEM "image/gif">
+<!ELEMENT photos (photo+)>
+<!ELEMENT photo (#PCDATA)>
+<!ATTLIST photo phototype NOTATION (JPG|GIF) #REQUIRED>
+]>
+
+<photos>
+<photo phototype="GIF">this is Mobile image</photo>
+<photo phototype="JPG">this is nature image</photo>
+</photos>

@@ -1,0 +1,12 @@
+<employee xmlns=""http://empinfo.in/diu"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://empinfo.in/diu D:\Worked File\XML work File\User Derived Data/user-driverType.xsd">
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>2000</salary>
+<vacationDays>2016-09-20 2016-09-21 2016-09-22
+</vacationDays>
+<phoneNumbers>4732975985 48271492349 749327492</phoneNumbers>
+</employee>
+
+

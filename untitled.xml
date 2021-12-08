@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs=
+"http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://empinfo.in/xsi
+targetNamespace="http://empinfo.in/xsi"
+elementFromDefault="qualified">
+<xs:simpleType name="Datelist">
+<xs:list itemType="xs:date"/>
+</xs:simpleType>
+<xs:simpleType name="contactList">
+<xs:list itemType="xs:string"/>
+</xs:simpleType> 
+<xs:element name="employee">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="empNo" type="xs:integer"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="salary" type="xs:decimal"/>
+<xs:element name="vactionDays" type="xsi:DateList"/>
+<xs:element name="phoneNumbers" type="xsi:contactList"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>

@@ -1,0 +1,16 @@
+<!DOCTYPE employees [
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee ANY>
+<!ELEMENT empName (#PCDATA)>
+<!ELEMENT empSalary (#PCDATA)>
+]>
+
+<employees>
+<employee>
+the empName is <empName>Tanmoy</empName>
+</employee>
+<employee>this is employee information</employee>
+<employee></employee>
+<employee><empSalary>20000</empSalary>
+</employee>
+</employees>

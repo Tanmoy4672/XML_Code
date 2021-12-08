@@ -1,0 +1,9 @@
+<!DOCTYPE books PUBLIC "-//tanmoy//1.0//EN" "D://XML/Cardinality operator/book.dtd" >
+<books>
+<book>
+<book-name>CoreJava</book-name>
+<price>500</price>
+<author>jhon</author>
+<publication>Bengal</publication>
+</book>
+</books>

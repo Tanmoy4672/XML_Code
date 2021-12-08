@@ -1,0 +1,6 @@
+<!DOCTYPE employee SYSTEM "D://XML/DTD Referance/employee.dtd">
+<employee>
+<empNo>101</empNo>
+<name>Tanmoy</name>
+<salary>20000</salary>
+</employee>

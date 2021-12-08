@@ -1,0 +1,11 @@
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student EMPTY>
+<!ATTLIST student studentId ID #REQUIRED>
+<!ATTLIST  student studentName CDATA #REQUIRED>
+]>
+
+<students>
+<student studentId="_201A" studentName="Tanmoy"/>
+<student studentId="DIU201-35-3095" studentName="Abir"/>
+</students>

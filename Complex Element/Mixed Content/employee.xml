@@ -1,0 +1,17 @@
+<schema>
+<element name ="employee">
+<complexType mixed="true">
+<sequence>
+<element name="empNo" type="int"/>
+<element name="name" type="string"/>
+<element name="salary" type="decimal"/>
+</sequence>
+</complexType>
+</element>
+</schema>
+
+<employee>
+The employee No is <empNo>101</empNo>
+and name is <name>Tanmoy</name>and salary is 
+<salary>20000</salary>
+</employee>

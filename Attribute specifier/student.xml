@@ -1,0 +1,6 @@
+<!DOCTYPE students SYSTEM "D://XML/Attribute specifier/student.dtd">
+<students>
+<student studentId='201-35-3095' studentCourse="c" studentFee="1000"/>
+<student studentId="102" studentName="Tanmoy"/>
+<student studentId="103" studentCourse="Java" studentFee="1000"/>
+</students>

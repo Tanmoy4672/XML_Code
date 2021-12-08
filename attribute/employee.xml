@@ -1,0 +1,5 @@
+<!DOCTYPE employees SYSTEM "D://XML/attribute/employee.dtd">
+<employees>
+<employee empNo='101' name='Tanmoy' salary='10000'/>
+<employee empNo='102' name='Tamol' salary='20000'/>
+</employees>
